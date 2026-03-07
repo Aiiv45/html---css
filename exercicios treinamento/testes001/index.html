@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <style>
+        h2{
+            color: rgb(7, 10, 209);
+        }
+    </style>
+    
+    <style>
+       ol{
+        background-color: rgb(214, 184, 241);
+       }
+    </style>
+    <style>
+        p1{
+            color: rgb(110, 173, 47);
+            font-size: 0.9em;
+        }
+    </style>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px
+        }
+    </style>
+    <style>
+        p{
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<h1>Revisão</h1>
+<h2>Testando o style com a tag ol + type</h2>
+<body>
+    
+    <ul type="circle">
+        <li>Microlins cursos feitos
+             <ol type="I">
+                 <li> Power BI
+                 <li>Excel
+             </ol>
+    </ul>
+
+    <h2>dl + dt + dd</h2>
+    <p>A tag <strong>dl</strong> irá definir que ali é uma lista, que cada <strong>dt</strong> é um item da lista e que cada <strong>dd</strong> é uma descrição do termo dito por dt</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd> Linguagem de marcação utilizada para criar conteudo em sites.</dd>
+    </dl>
+    <h3>Significados: </h3>
+        <dl>
+            <dt><strong>dt</strong></dt>
+            <dd>definition list</dd>
+        </dl>
+        <dl>
+            <dt><strong>dt</strong></dt>
+            <dd>definition term</dd>
+        </dl>
+        <dl>
+            <dt><strong>dd</strong></dt>
+            <dd>definition description</dd>
+        </dl>
+
+    <h2>code + pre</h2>
+    <p>Tag <strong>Code</strong> deixou as letras monoespaçadas e <br> Tag <strong>pre</strong> deixou arrumado (com identação)</p>
+    <code><pre>
+        if nota=>6 print"Passado";
+            else print "reprovado";
+    </pre>
+    </code>
+    <h2>blockquote + cite</h2>
+    <p>Tag <strong>blockquote</strong> fez uma citação em um bloco separado e <br> é possivel aplicar um link de referência caso a citação seja de um local específico, <br> com o atributo <!--acho que o nome é esse --> <strong>cite</strong>, faz com que o sistema de busca(google) <br> saber que essa frase está referenciando ao link marcado </p> 
+    <blockquote>teste sem link</blockquote>
+    <blockquote cite="https://www.speedtest.net/pt">teste com link (speedtest)</blockquote>
+    <h2>abbr title=" se mata">smt /abrr</h2>
+    <p><abbr title="se mata">smt</abbr></p>
+    <p><abbr title="papo reto">pprt</abbr></p>
+
+    <h2>a href + target + rel</h2>
+    <a href="https://github.com/Aiiv45" target="_blank" rel="author">Meu github</a>
+    <p><dl>
+            <dt><strong>a href</strong></dt>
+            <dd>Criação de hyperlinks (href é o local onde vai pôr o link)</dd>
+        </dl>
+    </p>
+    <p>
+        <dl>
+            <dt><strong>target</strong></dt>
+            <dd>controle de destino ( onde o site vai abrir )</dd>
+        </dl>
+    </p>
+    <p>
+        <dl>
+            <dt><strong>rel</strong></dt>
+            <dd>natureza do destino (se vai para próxima parte do doc ou se indica tal link ou não)</dd>
+        </dl>
+    </p>
+
+    <h2>Downloads e types</h2>
+    <a href="teste.pdf"download="teste.pdf" type="teste/pdf">arq.teste </a>
+    <p>Criado um pdf teste para colocar de href e <strong>download</strong></p>
+    <p1>midia type de pdf: xxxx/pdf</p1>
+    <p style="text-align: right;">oh o negocin aqui na direita 😝</p>
+   
+</body>
+</html>

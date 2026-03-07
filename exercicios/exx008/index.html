@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+            background-color: rgb(26, 235, 26);
+        } 
+    </style> <!-- style: vai selecionar e definir como padrão os marks para a cor escolhida-->
+    <style>
+        mark1 {
+            background-color: rgb(219, 200, 200);
+        } 
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p> <!-- b: negrito-->
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p> <!--Strong: Negrito -->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p> <!--i: italico-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p> <!-- em: italico-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p> <!--mark: texto marcado pela tag mark-->
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p> <!--mark: texto marcado pela tag mark-->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p> <!-- big: texto grande / samll: texto pequeno. !ATENÇÃO, "big" está obsoleto(tag vermelha), buscar no site oficial tag substituta (w3c)-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p> <!--del: risca o texto como se tivesse sendo desconsiderado/deletado-->
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p> <!-- ins: sublinha o texto-->
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p> <!-- u:sublinha o texto-->
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p> <!--sup: colocar coisas em cima do texto, como algum numero ao quadrado-->
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p> <!-- sub: para colocar coisas abaixo do texto, como H2O (o "2" ficaria em baixo)-->
+    <h2>Adicional proprio com dois seletores</h2>
+    <p>TESTE SEM COR, <mark1>TESTE COM COR</mark1></p>
+</body>
+</html>
