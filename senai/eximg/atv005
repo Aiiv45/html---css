@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Entre em contato</h1>
+    <form action="https://formspree.io/f/xojgjbkn" method="POST">
+    <div>
+        <label for="Nome">Nome:</label><br>
+        <input 
+        type="text"
+        id="Nome"
+        name="Nome"
+        placeholder="Digite seu nome" required>
+    </div>
+
+    <br>
+    <div>
+        <label for="Email">Email:</label><br>
+        <input 
+        type="text"
+        id="Email"
+        name="Email"
+        placeholder="Digite seu email">
+    </div>
+    <br>
+    <div>
+       <label for="Assunto">Assunto:</label><br>
+       <input
+       type="text"
+        id="Assunto"
+        name="subject"
+        placeholder="Digite o assunto">
+    </div>
+    <br>
+    <div>
+        <label for="Mensagem">Mensagem:</label><br>
+        <textarea 
+        id="Mensagem"
+        name="Mensagem"
+        rows="6"
+        cols="50"
+        placeholder="Digite sua mensagem"></textarea required>
+    </div>
+    <input
+     type="hidden"
+      name="_next" 
+      value="https://127.0.0.1:3000/Programa%C3%A7%C3%A3o%20Web/Gizelle/index.html">
+
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
