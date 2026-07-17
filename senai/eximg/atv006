@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 150px;
+            height: 50px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid black;
+            padding: 6px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        label{
+            font-size: 0.54cm;
+        }
+        input{
+            width: 250px;
+            height: 25px;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Revisão das ultimas aulas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et molestiae nulla perspiciatis quod cupiditate debitis assumenda nam aliquam! Officia laboriosam, maxime expedita illum et eaque veritatis doloribus quaerat culpa!</p>
+    <nav>
+        <a href="#">Formulario</a>
+        <hr>
+        <main>
+            <section>
+                <h2>Elemento de texto</h2>
+                <p>
+                    A tag <strong>&lt strong &gt;</strong>
+                </p>
+                <p>
+                    Exemplo utilizando <span>SPAN</span> uma tag de linha utilizada para agrupar pequenos textos
+                </p>
+            </section>
+            <section>
+                <img src="https://picsum.photos/200/300" alt="ramdom fotos">
+            </section>
+
+            <section>
+                <h2>Tabelas</h2>
+                <table>
+                    <caption>Exemplo de tabela</caption>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Curso</th>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Jonas</td>
+                            <td>JavasScript</td>
+                        </tr>
+                    </thead>
+                </table>
+            </section>
+            <hr>
+            <section id="formulario">
+                <h2>Formulario</h2>
+                <form action="">
+                    <label>Nome:</label><br>
+                    <input type="text" placeholder="Digite seu Nome">
+                    <br>
+                    <label>Email:</label><br>
+                    <input type="email" placeholder="Digite seu email">
+                    <br>
+                    <label>Senha:</label><br>
+                    <input type="password" placeholder="Digite sua Senha">
+                    <br>
+                    <label>Idade:</label><br>
+                    <input type="number" placeholder="Digite sua Idade">
+                    <br>
+                    <label>Nacimento:</label><br>
+                    <input type="date" >
+                </form>
+            </section>
+        </main>
+    </nav>
+</body>
+</html>
