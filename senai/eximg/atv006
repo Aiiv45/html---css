@@ -19,7 +19,7 @@
             vertical-align: middle;
         }
         label{
-            font-size: 0.54cm;
+            font-size: 0.50cm;
         }
         input{
             width: 250px;
@@ -89,10 +89,80 @@
                     <input type="number" placeholder="Digite sua Idade">
                     <br>
                     <label>Nacimento:</label><br>
-                    <input type="date" >
+                    <input type="date" ><br>
+
+                    <label>Enviar Arquivo</label><br>
+                    <input type="search"><br>
+
+                    <label>Volume</label><br>
+                    <input type="range"><br>
+
+                    <label>Pesquisa</label><br>
+                    <input type="search"><br>
+
+                    <label>Site</label><br>
+                    <input type="url"><br>
+
+                    <label>Telefone</label><br>
+                    <input type="tel"><br>
+
+                    <label>Escolha uma opção</label><br>
+                    
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                    <br>
+
+                    <label>SEXO:</label><br>
+                    <input type="radio" name="sexo"> Masculino
+                    <input type="radio" name="sexo"> Feminino
+
+                    <br><br>
+
+                    <label>Interesses</label>
+                    <input type="checkbox" name="HTML"> HTML
+                    <input type="checkbox" name="CSS"> CSS
+                    <input type="checkbox" name="JavaScript"> JavaScript
+                    <br>
+
+                    <label>Menssagem</label><br>
+                    <textarea rows="5" cols="40"></textarea> <br>
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                    <button type="reset">
+                        Limpar
+                    </button>
                 </form>
             </section>
+            <hr>
+            
+            <!--Artigo-->
+            <article>
+                <h2>Artigo</h2>
+                <p>A tag ARTICLE representa um conteudo independente, como uma noticia ou postagem de blog</p>
+            </article>
+
+            <!--Aside-->
+
+            <aside>
+                <h3>Curiosidade</h3>
+                <p>a tag ASIDE é utilizada para conteúdos complementares, como anuncios ou informações adicionais.</p>
+            </aside>
+
+
         </main>
+
+        <hr>
     </nav>
+
+    <!--Rodapé-->
+    <footer>
+        <p style="text-align: center;"> © 2026 - Curso de Desenvolvimento Web - SENAI</p>
+    </footer>
 </body>
 </html>
